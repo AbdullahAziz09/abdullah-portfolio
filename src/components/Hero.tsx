@@ -4,13 +4,6 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-const badges = [
-  { label: "React.js", className: "left-[-10%] top-[8%]", delay: 0 },
-  { label: "Next.js", className: "right-[-12%] top-[18%]", delay: 0.6 },
-  { label: "Node.js", className: "left-[-14%] bottom-[22%]", delay: 1.2 },
-  { label: "Spring Boot", className: "right-[-8%] bottom-[8%]", delay: 1.8 },
-];
-
 const IDLE_TILT = { x: 6, y: -10 };
 
 export default function Hero() {
@@ -145,23 +138,6 @@ export default function Hero() {
               className="relative h-80 w-64 sm:h-[26rem] sm:w-[20rem] md:h-[29rem] md:w-[22.5rem] lg:h-[34rem] lg:w-[27rem]"
               style={{ transformStyle: "preserve-3d" }}
             >
-              {badges.map((badge) => (
-                <motion.span
-                  key={badge.label}
-                  className={`pointer-events-none absolute z-20 rounded-full border border-white/10 bg-surface/70 px-3 py-1.5 text-xs font-semibold text-foreground shadow-lg shadow-black/30 backdrop-blur-md ${badge.className}`}
-                  style={{ transform: "translateZ(80px)" }}
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{
-                    duration: 4,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: badge.delay,
-                  }}
-                >
-                  {badge.label}
-                </motion.span>
-              ))}
-
               <div
                 className="relative h-full w-full transition-transform duration-150 ease-out"
                 style={{

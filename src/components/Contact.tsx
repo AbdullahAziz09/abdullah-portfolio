@@ -25,17 +25,6 @@ const contactLinks = [
       </svg>
     ),
   },
-  {
-    label: "Location",
-    value: "Islamabad, Pakistan",
-    href: "https://www.google.com/maps/search/Islamabad",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-        <circle cx="12" cy="10" r="3" />
-      </svg>
-    ),
-  },
 ];
 
 export default function Contact() {
@@ -70,16 +59,17 @@ export default function Contact() {
           </p>
 
           <h2 className="mt-6 bg-gradient-to-r from-foreground to-muted bg-clip-text text-3xl font-bold tracking-tight text-transparent sm:text-4xl">
-            Let&apos;s build something together
+            Got an idea? Let&apos;s talk.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-muted">
-            Have a project in mind or an opening on your team? I&apos;m always
-            open to discussing full-stack development, CMS builds, or custom
-            business systems.
+            A new product, an internal system, or just a rough concept you
+            can&apos;t stop thinking about &mdash; if it needs to be built,
+            I&apos;m up for the conversation. Reach out and let&apos;s make
+            it real.
           </p>
         </div>
 
-        <div className="relative mx-auto mt-12 grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3">
+        <div className="relative mx-auto mt-12 grid max-w-xl grid-cols-1 gap-4 sm:grid-cols-2">
           {contactLinks.map((link) => (
             <a
               key={link.label}

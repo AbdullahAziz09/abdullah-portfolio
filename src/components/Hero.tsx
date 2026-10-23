@@ -67,12 +67,7 @@ export default function Hero() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="flex-1 text-center md:text-left"
         >
-          <p className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-1.5 text-sm font-medium text-accent">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-accent" />
-            Available for new opportunities
-          </p>
-
-          <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
             Hi, I&apos;m Abdullah Aziz
           </h1>
 

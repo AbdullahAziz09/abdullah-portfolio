@@ -128,7 +128,7 @@ export default function Hero() {
         >
           {/* oversized ambient halo so the photo blends into the page instead of sitting on top of it */}
           <motion.div
-            className="pointer-events-none absolute -inset-16 rounded-full bg-gradient-to-br from-accent/40 via-accent-light/25 to-transparent blur-[70px]"
+            className="pointer-events-none absolute -inset-24 rounded-full bg-gradient-to-br from-accent/40 via-accent-light/25 to-transparent blur-[90px]"
             animate={{ scale: [1, 1.08, 1], rotate: [0, 8, 0] }}
             transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
           />
@@ -142,7 +142,7 @@ export default function Hero() {
               ref={cardRef}
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
-              className="relative h-64 w-64 sm:h-80 sm:w-80 md:h-[22rem] md:w-[22rem]"
+              className="relative h-80 w-64 sm:h-[26rem] sm:w-[20rem] md:h-[29rem] md:w-[22.5rem] lg:h-[34rem] lg:w-[27rem]"
               style={{ transformStyle: "preserve-3d" }}
             >
               {badges.map((badge) => (
@@ -173,16 +173,16 @@ export default function Hero() {
                   className="absolute inset-0 overflow-hidden rounded-[2.5rem] shadow-2xl shadow-accent/30"
                   style={{
                     maskImage:
-                      "linear-gradient(to bottom, black 72%, transparent 100%)",
+                      "linear-gradient(to bottom, black 80%, transparent 100%)",
                     WebkitMaskImage:
-                      "linear-gradient(to bottom, black 72%, transparent 100%)",
+                      "linear-gradient(to bottom, black 80%, transparent 100%)",
                   }}
                 >
                   <Image
                     src="/abdullah-aziz.png"
                     alt="Abdullah Aziz"
                     fill
-                    sizes="(min-width: 768px) 22rem, 16rem"
+                    sizes="(min-width: 1024px) 27rem, (min-width: 768px) 25rem, (min-width: 640px) 20rem, 16rem"
                     className="object-cover"
                     priority
                   />

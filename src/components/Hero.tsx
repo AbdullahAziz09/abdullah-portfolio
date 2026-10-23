@@ -53,7 +53,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative mx-auto flex max-w-6xl flex-col-reverse items-center gap-16 px-6 py-20 md:flex-row md:py-28">
+      <div className="relative mx-auto flex max-w-6xl flex-col-reverse items-center gap-16 px-6 pb-16 pt-8 md:flex-row md:pb-24 md:pt-10">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

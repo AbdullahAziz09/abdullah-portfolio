@@ -123,9 +123,17 @@ export default function Projects() {
                     <span aria-hidden="true">&rarr;</span>
                   </a>
                 ) : (
-                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted">
-                    Internal / Private Project
-                  </span>
+                  <a
+                    href={`https://wa.me/923455550677?text=${encodeURIComponent(
+                      `Hi Abdullah, I'd like to see a demo of ${project.name}.`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent transition-all hover:gap-2.5 hover:text-accent-light"
+                  >
+                    Ask for Demo
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
                 )}
               </div>
             </motion.article>

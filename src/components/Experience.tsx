@@ -13,7 +13,7 @@ const timeline = [
   },
   {
     period: "May 2025 — Sep 2025",
-    title: "Software Engineering Intern",
+    title: "Associate Software Engineer",
     company: "Volmatica",
     points: [
       "Developed enterprise applications using Java, Spring Boot, React.js, and JVM technologies.",

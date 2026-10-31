@@ -46,7 +46,7 @@ export default function About() {
                 Experience
               </p>
               <p className="mt-1 text-sm text-muted">
-                2+ Years
+                3+ Years
                 <br />
                 Full-Stack Software Engineer
               </p>

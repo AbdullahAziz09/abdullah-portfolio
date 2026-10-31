@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Abdullah Aziz | Software Engineer",
   description:
-    "Portfolio of Abdullah Aziz — Software Engineer (BS Software Engineering, Air University Islamabad) with 2+ years of experience building full-stack web applications, CMS platforms, and internal business systems.",
+    "Portfolio of Abdullah Aziz — Software Engineer (BS Software Engineering, Air University Islamabad) with 3+ years of experience building full-stack web applications, CMS platforms, and internal business systems.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

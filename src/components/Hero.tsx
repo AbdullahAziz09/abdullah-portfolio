@@ -92,7 +92,7 @@ export default function Hero() {
 
           <dl className="mx-auto mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6 md:mx-0">
             <div>
-              <dt className="text-2xl font-bold text-foreground">2+</dt>
+              <dt className="text-2xl font-bold text-foreground">3+</dt>
               <dd className="text-xs font-medium text-muted">
                 Years Experience
               </dd>
@@ -104,7 +104,7 @@ export default function Hero() {
               </dd>
             </div>
             <div>
-              <dt className="text-2xl font-bold text-foreground">6+</dt>
+              <dt className="text-2xl font-bold text-foreground">20+</dt>
               <dd className="text-xs font-medium text-muted">
                 Projects Delivered
               </dd>
